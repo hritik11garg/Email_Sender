@@ -6,10 +6,9 @@ import smtplib
 email_sender = ''
 #Enter the password after doing 2-factor for the email-id and then clicking on App passwords then click on select app and then on custom and name it python which will generate a password which you will copy and paste it below
 email_password = ''
-email_receiver = input("Enter the email:\n")
-
+email_receiver = input("\nEnter the receiver's email:\n")
 subject = input("\nEnter the subject:\n")
-body = input("\nEnter the message(Note: pressing enter will end the message n")
+body = input("\nEnter the message(Note: pressing enter will end the message): \n")
 
 em = EmailMessage()
 em['From'] = email_sender
